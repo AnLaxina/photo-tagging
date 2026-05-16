@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import HomeCard from "../components/HomeCard";
 
 export default function Home() {
+  // TODO: Read up on Leaflet JS and install the react-leaflet component
+  // TODO: Make a separate page for each map.
   return (
     <div className="flex flex-col gap-2 justify-between min-h-dvh dark:bg-gray-800">
       <Header>Where's Cookie?</Header>
