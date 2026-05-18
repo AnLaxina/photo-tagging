@@ -9,7 +9,15 @@ export default function Home() {
       <main className="flex flex-col items-center grow dark:text-white">
         <h2 className="font-medium text-xl md:text-2xl mb-6">Select a map</h2>
         <ul className="grow gap-6 flex flex-col w-full max-w-2xs md:max-w-dvw lg:flex-row lg:justify-center lg:items-center md:p-6">
-            <li><HomeCard imagePath="/src/assets/backgrounds/hollyberry.jpg" imageAlt="The Hollyberry Kingdom">Hollyberry Kingdom</HomeCard></li>
+          <li>
+            <HomeCard
+              link="/map/hollyberry"
+              imagePath="/src/assets/backgrounds/hollyberry.jpg"
+              imageAlt="The Hollyberry Kingdom"
+            >
+              Hollyberry Kingdom
+            </HomeCard>
+          </li>
         </ul>
       </main>
       <Footer />

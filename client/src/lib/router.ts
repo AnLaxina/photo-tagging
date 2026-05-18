@@ -13,8 +13,11 @@ export const router = createBrowserRouter([
   },
   {
     path: "/map",
-    Component: ErrorPage,
     children: [
+      {
+        index: true,
+        Component: ErrorPage,
+      },
       {
         path: "test",
         Component: TestMap,
