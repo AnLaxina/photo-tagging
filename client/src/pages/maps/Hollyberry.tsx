@@ -11,7 +11,7 @@ export default function HollyberryMap() {
     [616, 1024],
   ];
 
-  const popup = useRef(null);
+  const popup = useRef(HTMLDialogElement);
 
   useEffect(() => {
     popup.current.showModal();
