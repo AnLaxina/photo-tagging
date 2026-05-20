@@ -18,7 +18,7 @@ export default function HollyberryMap() {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-col">
       <Popup parentRef={popup} />
       <MapContainer
         crs={L.CRS.Simple}
@@ -36,6 +36,6 @@ export default function HollyberryMap() {
           url="/src/assets/backgrounds/hollyberry.jpg"
         />
       </MapContainer>
-    </>
+    </div>
   );
 }

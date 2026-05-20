@@ -8,7 +8,7 @@ interface PopupProps {
 export default function Popup({ parentRef }: PopupProps) {
   return (
     <motion.dialog
-      className="open:backdrop:bg-[rgba(0,0,0,0.7)]"
+      className="open:backdrop:bg-[rgba(0,0,0,0.7)] open:self-center open:justify-self-center"
       ref={parentRef}
       initial={{ scale: 0 }}
       animate={{ scale: 1 }}
